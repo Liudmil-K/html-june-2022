@@ -1,0 +1,29 @@
+body {
+    background-color: #E5E5E5;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.name, .name-2 {
+    line-height: 55px;
+    color: #fb6d3a;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.name-2 {
+    font-size: 30px;
+}
+
+.main-text, .punkt {
+    font-size: 24px;
+    color: #595959;
+}
+
+.text {
+    font-size: 20px;
+    color: firebrick;
+}

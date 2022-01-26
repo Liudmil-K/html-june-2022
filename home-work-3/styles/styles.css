@@ -1,0 +1,40 @@
+body, button {
+    background-color: black;
+} вд
+
+.centr {
+    margin: 30% 15% 0 15%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 1000px;
+    border: 15px solid;
+    border-radius: 100px;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    font-size: 70px
+}
+
+.orange {
+    border-color: darkorange;
+    color: darkorange;
+}
+
+.blue {
+    border-color: aqua;
+    color: aqua;
+}
+
+.pink {
+    border-color: hotpink;
+    color: hotpink;
+}
+
+.red {
+    border-color: red;
+    color: red;
+
+}

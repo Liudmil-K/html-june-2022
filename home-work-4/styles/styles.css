@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: cadetblue;
+    overflow: hidden;
+    font-size: 60px;
+    line-height: 60px;
+    color: #595959;
+}
