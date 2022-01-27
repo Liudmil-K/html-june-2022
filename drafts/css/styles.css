@@ -3,6 +3,7 @@
     --white-color: white;
 }
 
+
 * {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -11,6 +12,7 @@
     margin: 0;
     padding: 0;
 }
+
 
 .header,
 .main {
