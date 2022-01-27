@@ -88,9 +88,13 @@
     color: var(--dack-color);
 }
 
-.context p {
+.context p,
+.article-twoo-content p {
     font-size: 22px;
     line-height: 32px;
+}
+
+.context p {
     color: #375361;
     margin: 24px 0 40px;
 }
@@ -133,7 +137,7 @@
 }
 
 .companies {
-    margin: 630px 149px 0;
+    margin: 630px 149px 192px;
 }
 
 .companies h2 {
@@ -143,5 +147,40 @@
     text-align: center;
     letter-spacing: 0.42px;
     color: var(--dack-color);
-    margin: 0 214px;
+    margin: 0 214px 40px;
+}
+
+.companies-logos {
+    display: flex;
+    column-gap: 57px;
+    margin-top: 16px;
+}
+
+.article-twoo {
+    margin: 0 32px;
+    background: #51CEBC;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.article-twoo img {
+    margin: 56px 0;
+}
+
+.article-twoo-content {
+    margin: 115px 116px 131px 0;
+}
+
+.article-twoo-content h3 {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: var(--dack-color);
+}
+
+.article-twoo-content p {
+    margin-top: 34px;
+    color: var(--dack-color);
 }
