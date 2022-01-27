@@ -16,8 +16,7 @@
 }
 
 .centr  {
-    position: relative;
-    max-width: 1150px;
+    width: 1150px;
     margin: 0 auto;
 }
 
@@ -57,13 +56,13 @@
     transition: box-shadow .50s;
     cursor: pointer;
     font-weight: bold;
+    padding: 0 30px;
 }
 
 .nav-btn {
     height: 52px;
     font-size: 18px;
     line-height: 25px;
-    padding: 0 25px;
 }
 
 .nav-btn:hover,
@@ -120,7 +119,6 @@
 }
 
 .header-button--talk {
-    padding: 0 30px;
     margin-top: 27px;
     height: 61px;
     font-size: 22px;
@@ -192,8 +190,6 @@
     background-color: #F7B2B7;
     font-size: 18px;
     line-height: 25px;
-    width: 235px;
-    min-width: 235px;
 }
 
 .article-pink {
@@ -253,7 +249,7 @@
     border-radius: 10px;
     padding: 90px;
     display: flex;
-    column-gap: 106px;
+    column-gap: 196px;
     height: 103px;
     max-height: 103px;
 }
@@ -275,8 +271,6 @@
     height: 50px;
     font-size: 18px;
     line-height: 25px;
-    width: 159px;
-    min-width: 159px;
     color: var(--white-color);
 }
 
@@ -339,6 +333,14 @@
 .footer-company p,
 .footer-speak p,
 .footer-made p {
+    margin-bottom: 8px;
+}
+
+.footer-how a,
+.footer-description a,
+.footer-company a,
+.footer-speak a,
+.footer-made a {
     color: #C5E9EA;
     margin-bottom: 8px;
     text-decoration: none;
@@ -355,7 +357,7 @@
 }
 
 .footer-speak {
-    margin: 36px 0 54px;
+    margin-top: 36px;
     height: 129px;
 }
 
@@ -363,11 +365,12 @@
     margin-bottom: 13px;
 }
 
-.footer-made {
+.footer-bootom {
     display: flex;
-    column-gap: 27px;
 }
 
-.footer-made img {
-    margin-left: 506px;
+.footer-made {
+    margin: 54px 526px 0 0;
+    display: flex;
+    column-gap: 27px;
 }
