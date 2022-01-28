@@ -1,0 +1,43 @@
+* {
+    color: black;
+}
+
+.body {
+    width: 620px;
+    margin: auto;
+    text-align: center;
+}
+
+.header,
+.footer {
+    background: cornflowerblue;
+}
+
+.header {
+    padding: 50px 0;
+}
+
+.header h2,
+.footer h2 {
+    font-weight: normal;
+}
+
+.header,
+.main {
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    column-gap: 20px;
+}
+
+.widgets {
+    background: #335C81;
+    padding: 40px 0;
+    width: 33%;
+}
+
+.footer {
+    padding: 100px 0;
+}
