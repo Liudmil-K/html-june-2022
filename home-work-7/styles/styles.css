@@ -1,0 +1,61 @@
+body {
+    background: #E5E5E5;
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+}
+
+.all-body {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    background: white;
+    border: 3px solid grey;
+    border-radius: 10px;
+}
+
+.header,
+.sidebar,
+.head,
+.footer div {
+    border: 3px solid gainsboro;
+    background: gainsboro;
+}
+
+.header {
+    margin: 10px;
+}
+
+.main,
+.footer {
+    display: flex;
+}
+
+.article {
+    width: 150px;
+}
+
+.head {
+    width: 483px;
+    margin: 0 10px;
+}
+
+.footer {
+    column-gap: 10px;
+    margin: 10px 0 10px 10px;
+    width: 490px;
+}
+
+.footer div {
+    width: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    margin: 0 10px 10px 360px;
+}
+
+.sidebar div {
+    margin: 80px auto;
+}
