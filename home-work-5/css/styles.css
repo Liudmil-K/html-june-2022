@@ -1,42 +1,42 @@
 * {
     color: black;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .body {
-    width: 620px;
+    width: 624px;
     margin: auto;
+    text-align: center;
+    font-weight: bold;
 }
 
-.body button {
-    border: 2px solid black;
-    width: 300px;
+.header,
+.menu,
+.post,
+.footer {
+    border: 3px solid black;
 }
 
-.header button {
-    background: chartreuse;
-}
-
-.header button,
-.footer button {
+.header,
+.footer {
     width: 100%;
-}
-
-.header button,
-.footer button,
-.post button {
     padding: 20px 0;
 }
 
-.header button,
+.header {
+    background: chartreuse;
+}
+
+.header,
 .menu,
-.post button {
+.post {
     margin-bottom: 20px;
 }
 
-.menu button{
-    height: 100%;
+.menu {
+    width: 200px;
     background: pink;
+    padding: 100px 0;
 }
 
 .main {
@@ -44,11 +44,16 @@
     column-gap: 20px;
 }
 
-.post button {
-    height: 200px;
-    background: blue;
+.posts {
+    width: 400px;
 }
 
-.footer button  {
+.post {
+    background: blue;
+    padding: 30px 60px;
+    width: 280px;
+}
+
+.footer {
     background: gold;
 }
