@@ -1,0 +1,57 @@
+* {
+    color: #E5E5E5;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 520px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu {
+    margin: 10px 10px 20px;
+}
+
+.menu,
+.footer {
+    display: flex;
+    column-gap: 20px;
+}
+
+.home,
+.about,
+.footer div {
+    background: cornflowerblue;
+    padding: 150px 0;
+    width: 100%;
+}
+
+.kabobs {
+    background: cornflowerblue;
+    margin: 0 10px;
+    padding: 150px 0;
+}
+
+.home div,
+.about div,
+.kabobs div {
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.kabobs,
+.footer div {
+    padding: 40px 0;
+}
+
+.footer {
+    margin: 20px 10px 0;
+}
+
+.footer div {
+    background: #335C81;
+    font-weight: normal;
+    font-size: 20px;
+}
