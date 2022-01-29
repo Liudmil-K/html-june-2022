@@ -1,0 +1,54 @@
+* {
+    color: black;
+    font-size: 30px;
+}
+
+.body {
+    width: 620px;
+    margin: auto;
+}
+
+.body button {
+    border: 2px solid black;
+    width: 300px;
+}
+
+.header button {
+    background: chartreuse;
+}
+
+.header button,
+.footer button {
+    width: 100%;
+}
+
+.header button,
+.footer button,
+.post button {
+    padding: 20px 0;
+}
+
+.header button,
+.menu,
+.post button {
+    margin-bottom: 20px;
+}
+
+.menu button{
+    height: 100%;
+    background: pink;
+}
+
+.main {
+    display: flex;
+    column-gap: 20px;
+}
+
+.post button {
+    height: 200px;
+    background: blue;
+}
+
+.footer button  {
+    background: gold;
+}

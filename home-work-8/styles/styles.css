@@ -1,0 +1,53 @@
+body {
+    background: #E5E5E5;
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+}
+
+.all-body {
+    width: 630px;
+    margin: auto;
+    text-align: center;
+    background: white;
+    border: 3px solid grey;
+    border-radius: 10px;
+}
+
+.a,
+.fr,
+.trio div,
+.h {
+    border: 3px solid gainsboro;
+    background: gainsboro;
+}
+
+.a {
+    margin: 10px;
+}
+
+.main,
+.trio {
+    display: flex;
+}
+
+.trio {
+    column-gap: 10px;
+    margin: 0 0 10px 10px;
+    width: 450px;
+}
+
+.trio div {
+    width: 100%;
+    padding: 25px;
+}
+
+.h {
+    width: 150px;
+    margin: 0 10px 10px 10px;
+}
+
+.h div {
+    margin: 130px auto;
+}
