@@ -1,7 +1,8 @@
 :root {
-    --dack-color: #0B2330;;
+    --dack-color: #0B2330;
     --white-color: white;
 }
+
 
 
 * {
@@ -12,7 +13,6 @@
     margin: 0;
     padding: 0;
 }
-
 
 .header,
 .main {
@@ -29,11 +29,16 @@
     justify-content: space-between;
 }
 
+
 .menu a {
-    font-size: 16px;
-    line-height: 24px;
     color: black;
     text-decoration: none;
+}
+
+.menu a,
+.button {
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .logo {
@@ -62,8 +67,6 @@
     font-weight: bold;
     padding: 15px 29px;
     height: 54px;
-    font-size: 16px;
-    line-height: 24px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -93,9 +96,11 @@
 }
 
 .context p,
-.article-twoo-content p {
+.article-twoo-content p,
+.article-five--solution p {
     font-size: 22px;
     line-height: 32px;
+    color: #375361;
 }
 
 .context p {
@@ -142,12 +147,18 @@
     margin: 630px 149px 192px;
 }
 
-.companies h2 {
+.companies h2,
+.article-four--content h2,
+.article-five--solution h2 {
     font-size: 42px;
     line-height: 48px;
-    text-align: center;
-    letter-spacing: 0.42px;
     color: var(--dack-color);
+    letter-spacing: 0.42px;
+    font-weight: normal;
+}
+
+.companies h2 {
+    text-align: center;
     margin: 0 214px 40px;
 }
 
@@ -173,7 +184,9 @@
     margin: 115px 116px 131px 0;
 }
 
-.article-two-content h3 {
+.article-two-content h3,
+.article-three h3,
+.article-five--content h3 {
     font-size: 34px;
     line-height: 40px;
     letter-spacing: 0.34px;
@@ -189,12 +202,9 @@
     margin-top: 192px;
 }
 
-.article-three p {
+.article-three h3 {
     margin: 0 365px 57px;
-    font-size: 34px;
-    line-height: 40px;
     text-align: center;
-    letter-spacing: 0.34px;
 }
 
 .article-three img {
@@ -203,4 +213,78 @@
 
 .button-orange-2 {
     margin: 0 638px;
+}
+
+.article-four {
+    margin: 160px 32px 120px;
+    display: flex;
+    position: relative;
+}
+
+.article-four--img {
+    padding: 0;
+    margin: 64px 0;
+    z-index: 1;
+}
+
+.article-four--content {
+    position: absolute;
+    padding: 106px 116px 123px 582px;
+    margin-left: 116px;
+    background: #BD78F0;
+    border-radius: 10px;
+}
+
+.article-four--content p,
+article-five--content p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.article-four--content p {
+    color: var(--dack-color);
+    margin: 30px 0;
+}
+
+.article-five {
+    margin: 136px 32px 136px 148px;
+}
+
+.article-five--solution h4 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #6A7981;
+    margin-bottom: 16px;
+}
+
+.article-five--solution p {
+    margin: 24px 0 218px;
+}
+
+.article-five--contextual,
+.article-five--video,
+.article-five--concept {
+    display: flex;
+    column-gap: 234px;
+}
+
+.article-five--content,
+.article-five--vid,
+.article-five--con {
+    margin: 7px 0;
+}
+
+.article-five--content h3,
+.article-five--vid h3,
+.article-five--con h3 {
+    margin: 24px 0;
+}
+
+.article-five--content button,
+.article-five--vid button,
+.article-five--con button {
+    margin: 64px 0 133px;
 }
