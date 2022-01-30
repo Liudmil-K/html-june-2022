@@ -1,17 +1,15 @@
-:root {
-    --dack-color: #0B2330;
-    --white-color: white;
-}
-
-
-
 * {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    color: var(--dack-color);
+    color: #0B2330;
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --dark-color: #0B2330;
+    --white-color: white;
 }
 
 .header,
@@ -19,7 +17,6 @@
     position: relative;
     width: 1440px;
     margin: 0 auto;
-
 }
 
 .menu {
@@ -71,7 +68,7 @@
 }
 
 .button-start {
-    background-color: var(--dack-color);
+    background-color: var(--dark-color);
     color: var(--white-color);
     margin-right: 32px;
 }
@@ -92,7 +89,7 @@
     font-size: 60px;
     line-height: 64px;
     letter-spacing: 0.6px;
-    color: var(--dack-color);
+    color: var(--dark-color);
 }
 
 .context p,
@@ -115,13 +112,13 @@
 
 .button-orange {
     background: #F9C600;
-    color: var(--dack-color);
+    color: var(--dark-color);
 }
 
 .button-white {
     background: none;
     color: black;
-    border: 1px solid var(--dack-color);
+    border: 1px solid var(--dark-color);
 }
 
 .pictures {
@@ -152,7 +149,7 @@
 .article-five--solution h2 {
     font-size: 42px;
     line-height: 48px;
-    color: var(--dack-color);
+    color: var(--dark-color);
     letter-spacing: 0.42px;
     font-weight: normal;
 }
@@ -190,12 +187,12 @@
     font-size: 34px;
     line-height: 40px;
     letter-spacing: 0.34px;
-    color: var(--dack-color);
+    color: var(--dark-color);
 }
 
 .article-two-content p {
     margin-top: 34px;
-    color: var(--dack-color);
+    color: var(--dark-color);
 }
 
 .article-three {
@@ -236,13 +233,13 @@
 }
 
 .article-four--content p,
-article-five--content p {
+.article-five--content p {
     font-size: 17px;
     line-height: 28px;
 }
 
 .article-four--content p {
-    color: var(--dack-color);
+    color: var(--dark-color);
     margin: 30px 0;
 }
 
