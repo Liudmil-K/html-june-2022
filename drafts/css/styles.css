@@ -21,11 +21,30 @@
 
 .menu {
     height: 83px;
-    display: flex;
     column-gap: 141px;
     justify-content: space-between;
 }
 
+.menu,
+.logo,
+.menu-main,
+.menu-login,
+.artikle-one,
+.context-buttons,
+.companies-logos,
+.article-two,
+.article-four,
+.article-five--contextual,
+.article-five--video,
+.article-five--concept,
+.trio,
+.article-six--purpose,
+.article-six--combo1,
+.article-six--more1,
+.article-six--analysis,
+.article-six--templates {
+    display: flex;
+}
 
 .menu a {
     color: black;
@@ -39,14 +58,12 @@
 }
 
 .logo {
-    display: flex;
     align-items: center;
     padding: 16px 0 15px 32px;
 }
 
 .menu-main,
 .menu-login {
-    display: flex;
     align-items: center;
     column-gap: 24px;
 }
@@ -76,7 +93,6 @@
 .artikle-one {
     height: 448px;
     padding-left: 147px;
-    display: flex;
     column-gap: 135px;
 }
 
@@ -85,7 +101,8 @@
     width: 448px;
 }
 
-.context h1 {
+.context h1,
+.article-six--features h2 {
     font-size: 60px;
     line-height: 64px;
     letter-spacing: 0.6px;
@@ -106,7 +123,6 @@
 }
 
 .context-buttons {
-    display: flex;
     column-gap: 16px;
 }
 
@@ -160,7 +176,6 @@
 }
 
 .companies-logos {
-    display: flex;
     column-gap: 57px;
     margin-top: 16px;
 }
@@ -169,7 +184,6 @@
     margin: 0 32px;
     background: #51CEBC;
     border-radius: 10px;
-    display: flex;
     column-gap: 20px;
 }
 
@@ -214,7 +228,6 @@
 
 .article-four {
     margin: 160px 32px 120px;
-    display: flex;
     position: relative;
 }
 
@@ -233,9 +246,12 @@
 }
 
 .article-four--content p,
-.article-five--content p {
+.article-five--content p,
+.article-five--vid p,
+.article-five--con p {
     font-size: 17px;
     line-height: 28px;
+    color: #375361;
 }
 
 .article-four--content p {
@@ -248,13 +264,22 @@
 }
 
 .article-five--solution h4 {
+    color: #6A7981;
+    margin-bottom: 16px;
+}
+
+.article-five--solution h4,
+.article-six--features {
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.article-five--solution h4,
+.trio button,
+.article-six--features h4 {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    color: #6A7981;
-    margin-bottom: 16px;
 }
 
 .article-five--solution p {
@@ -264,13 +289,11 @@
 .article-five--contextual,
 .article-five--video,
 .article-five--concept {
-    display: flex;
     column-gap: 234px;
 }
 
 .article-five--content,
-.article-five--vid,
-.article-five--con {
+.article-five--vid {
     margin: 7px 0;
 }
 
@@ -281,7 +304,99 @@
 }
 
 .article-five--content button,
-.article-five--vid button,
-.article-five--con button {
+.article-five--vid button {
     margin: 64px 0 133px;
+}
+
+.article-five--con {
+    margin: 7px 0 0;
+}
+
+.article-five--con button {
+    margin: 64px 0 0;
+}
+
+.trio {
+    column-gap: 8px;
+    text-decoration: none;
+}
+
+.button-gray,
+.button-orange {
+    border: none;
+    border-radius: 3px;
+    padding: 5px 35px 0 5px;
+}
+
+.button-gray {
+    background: lightgray;
+    color: #375361;
+}
+
+.button-orange {
+    background: #fe9f28;
+    color: var(--dark-color);
+}
+
+.article-six {
+    background: #F2EDE7;
+    padding: 96px 122px;
+    width: 1440px;
+}
+
+.article-six--features h2 {
+    text-transform: none;
+    margin: 10px 133px 128px 0;
+}
+
+.article-six--purpose {
+    column-gap: 300px;
+}
+
+.article-six--combo {
+    border-top: 1px solid #F78D9A;
+}
+
+.article-six--combo1 {
+    column-gap: 319px;
+    margin: 26px 0;
+}
+
+.article-six--combo1 p,
+.article-six--analysis,
+.article-six--templates {
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--dark-color);
+}
+
+.article-six--more p {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--dark-color);
+}
+
+.article-six--more1 {
+    column-gap: 8px;
+    margin: 39px 0 25px;
+}
+
+.article-six--analysis,
+.article-six--templates {
+    border-top: 1px solid #c3cacd;
+}
+
+.article-six--analysis {
+    column-gap: 437px;
+}
+
+.article-six--analysis p,
+.article-six--templates p {
+    margin: 24px 0;
+}
+
+.article-six--templates {
+    column-gap: 444px;
+    border-bottom: 1px solid #c3cacd;
+    margin-bottom: 96px;
 }
